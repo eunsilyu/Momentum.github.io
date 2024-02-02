@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css" />
+  
+  <title>Momentum</title>
+</head>
+<body>
+  <section id="container">
+
+    
+    <div id="header">
+
+      <div id="weather">
+        <span></span>
+        <span></span>
+      </div>
+  
+      <p id="clock"></p>
+
+      
+    </div>
+
+    <div id="login-form-wrap">
+      <form id="login-form" class="hidden">
+        <input required maxlength="15" type="text" placeholder="What is your name?" />
+        <input type="submit" value="Log in" />
+      </form>
+
+      <h1 id="greeting" class="hidden"></h1>
+    </div>
+
+    <div id="wrap">
+      <div id="quote">
+        <span></span>
+        <br /><br />
+        <span></span>
+      </div>
+    
+      <div id="todo-wrap">
+        <p>To Do List</p>
+        <form id="todo-form">
+          <input type="text" placeholder="Write a To Do and Press Enter" required />
+        </form>
+
+        <ul id="todo-list">
+        </ul>
+      </div>
+
+    </div>
+
+    <p>&copy; eunsil yu.</p>
+
+  </section>
+
+   <script src="/js/image.js"></script>
+   <script src="/js/greetings.js"></script>
+   <script src="/js/clock.js"></script>
+   <script src="/js/quotes.js"></script>
+   <script src="/js/backgroundcolor.js"></script>
+   <script src="/js/weather.js"></script>
+   <script src="/js/todo.js"></script>
+</body>
+</html>
